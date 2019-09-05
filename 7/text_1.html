@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加和注销</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--header开始-->
+<div class="header">
+    <div class="header_logo fl">
+        <a href="#"><img src="img/header_logo.png" alt=""></a>
+    </div>
+    <div class="header_nav fl">
+        <ul>
+            <li>
+                <img src="img/nav_1.png" alt="">
+                <a href="#" class="nav_current">数据概览</a>
+            </li>
+            <li>
+                <img src="img/nav_2.png" alt="">
+                <a href="#">车辆监控</a>
+            </li>
+            <li>
+                <img src="img/nav_3.png" alt="">
+                <a href="#">政府监管</a>
+            </li>
+            <li>
+                <img src="img/nav_4.png" alt="">
+                <a href="#">参数设置</a>
+            </li>
+            <li>
+                <img src="img/nav_5.png" alt="">
+                <a href="#">车载视频</a>
+            </li>
+            <li>
+                <img src="img/nav_6.png" alt="">
+                <a href="#">视频监控</a>
+            </li>
+            <li>
+                <img src="img/nav_7.png" alt="">
+                <a href="#">查询统计</a>
+            </li>
+            <!--<li>-->
+                <!--<img src="img/nav_8.png" alt="">-->
+                <!--<a href="#">行业应用</a>-->
+            <!--</li>-->
+            <li>
+                <img src="img/nav_9.png" alt="">
+                <a href="#">系统设置</a>
+            </li>
+        </ul>
+    </div>
+    <div class="header_myself fr">
+        <p>用户：管理员</p>
+        <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">注销 &nbsp;<span class="caret"></span></a>
+    </div>
+</div>
+<!--header结束-->
+
+<!--content开始-->
+<div class="content">
+    <div class="content_title">
+        <img src="img/content_title.png" alt="" class="fl">
+        <p>政府监管&gt;报警督办</p>
+    </div>
+    <div class="content_main">
+        <div class="form-inline content_search">
+            <div class="form-group">
+                <label>车牌号：</label>
+                <input type="text" class="form-control"  placeholder=" ">
+            </div>
+            <div class="form-group">
+                <label >来源：</label>
+                <select class="form-control">
+                    <option>请选择</option>
+                    <option>车载终端</option>
+                    <option>其他</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label >企业名称：</label>
+                <input type="text" class="form-control"  placeholder="">
+            </div>
+            <button type="button" class="btn btn-primary">查询</button>
+            <button type="button" class="btn btn-danger">重置</button>
+        </div>
+        <div class="content_table">
+            <div class="table_ipt">
+                <button type="button" class="btn btn-primary">查看</button>
+                <button type="button" class="btn btn-success" id="add_ipt">添加</button>
+                <button type="button" class="btn btn-info">编辑</button>
+                <button type="button" class="btn btn-danger">删除</button>
+            </div>
+            <table class="table table-bordered table-hover table-condensed table-responsive table-striped">
+                <thead>
+                <tr>
+                    <th><input type="checkbox"></th>
+                    <th>ID</th>
+                    <th>车牌号</th>
+                    <th>颜色</th>
+                    <th>企业名称</th>
+                    <th>报警类型</th>
+                    <th>来源</th>
+                    <th>报警时间</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="content_page fl">
+            <span class="fl">行数：</span>
+            <select name="" class="form-control fl">
+                <option value="">10</option>
+                <option value="">15</option>
+                <option value="">20</option>
+                <option value="">全部</option>
+            </select>
+            <span class="fl">显示1到10，共10条记录</span>
+        </div>
+        <nav aria-label="Page navigation" class="fr">
+            <ul class="pagination" style="margin: 0">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+</div>
+<!--content结束-->
+
+
+
+
+<!--注销模态框  开始-->
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">注销</h4>
+            </div>
+            <div class="modal-body">
+                <p>确认退出该系统吗？</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--注销模态框  结束-->
+
+
+<!--添加模态框  开始-->
+<div class="modal fade" id="modal_add" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document" style="width: 700px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">添加</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">车牌号</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">颜色</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">来源</label>
+                        <div class="col-sm-10">
+                            <select class="form-control">
+                                <option>请选择</option>
+                                <option>车载终端</option>
+                                <option>其他</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">企业名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">报警类型</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">视频终端</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">车辆总数</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"  placeholder="">
+                        </div>
+                    </div>
+                    <div/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--添加模态框  结束-->
+
+
+
+</body>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+</html>
