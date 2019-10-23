@@ -1,0 +1,6 @@
+<template name="menu">
+    <view class="menu-container">
+        <image class="menu-image" src="{{imgUrl}}"></image>
+        <text class="menu-title">{{name}}</text>
+    </view>
+</template>

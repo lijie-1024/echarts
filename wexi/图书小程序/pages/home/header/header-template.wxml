@@ -1,0 +1,6 @@
+<template name="header">
+    <view class="header-container">
+        <text class="header-title">{{name}}</text>
+        <text class="more">更多>></text>
+    </view>
+</template>

@@ -1,0 +1,6 @@
+<template name="mall">
+<view class="mall-container">
+<image class="mall-img" src="{{imgUrl}}"></image>
+<text class="mall-title">{{name}}</text>
+</view>
+</template>

@@ -1,0 +1,42 @@
+/* mine.wxss */
+
+@import "cell/cell-template.wxss";
+page{
+  height: 100%;
+}
+.mine-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rpx;
+  background-color: #eee;
+}
+.info-container{
+  height: 160rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info-img{
+  height: 80rpx;
+  width: 80rpx;
+  margin: 10rpx;
+  border-radius: 40rpx;
+}
+.info-text{
+  color: #FB7C58;
+  font-size: 30rpx;
+  margin-left: 40rpx;
+}
+.section-container{
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.main-container{
+  width: 100%;
+  
+}

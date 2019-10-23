@@ -1,0 +1,38 @@
+<!--bookDetail.wxml-->
+<view class="detail-container">
+  <view class="header-container">
+    <image class="book-img" src="{{bookDetail.book.imgUrl}}"></image>
+    <view class="header-right">
+      <text class="name-text">{{bookDetail.book.name}}</text>
+      <text class="author-text">{{bookDetail.book.author}}</text>
+      <view class="star-container">
+        <view class="stars">
+          <block wx:for="{{[1,2,3,4,5]}}">
+            <image wx:if="{{item>bookDetail.book.doubanScore/2}}" class="star-img" src="/images/star.png"></image>
+            <image wx:if="{{item<bookDetail.book.doubanScore/2}}" class="star-img" src="/images/star_green.png"></image>
+          </block>
+        </view>
+        <text class="score-text">{{bookDetail.book.doubanScore}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="tags-container">
+    <text class="tags-title">分类标签</text>
+    <view class="tags">
+      <block wx:for="{{tags}}">
+        <text class="tag-text">{{item}}</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="content-container">
+    <text class="content-title">内容简介</text>
+    <text class="content-detail">{{bookDetail.book.content}}</text>
+  </view>
+
+  <view class="bottom">
+    <text class="collect-btn">收藏</text>
+    <text class="push-btn">推送</text>
+  </view>
+</view>

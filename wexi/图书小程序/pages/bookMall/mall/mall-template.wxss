@@ -1,0 +1,26 @@
+.mall-container {
+  height: 200rpx;
+  width: 200rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+}
+
+.mall-img {
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.mall-title {
+  width: 100%;
+  height: 40rpx;
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.5;
+  
+}

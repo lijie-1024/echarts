@@ -1,0 +1,24 @@
+.cell-container {
+  width: 100%;
+  height: 88rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cell-name {
+  /* float: left; */
+  /* margin-right: 20rpx; */
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.cell-img {
+  /* float: right; */
+  height: 36rpx;
+  width: 36rpx;
+  margin-right: 20rpx;
+}

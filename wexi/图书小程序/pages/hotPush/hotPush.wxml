@@ -1,0 +1,18 @@
+<!--hotPush.wxml-->
+<view class="hotpush-container">
+  <block wx:for="{{['month','week']}}">
+    <view class="header">
+      <image class="header-img" src="/images/hot.png"></image>
+      <text class="header-text">{{titles[item]}}</text>
+    </view>
+    
+    <block wx:for="{{hotPush[item]}}" wx:for-item="data">
+      <view class="hot-container" catchtap="toDetail" data-book="{{data}}">
+        <text class="name-text">{{index+1}}. {{data.name}}</text>
+        <text class="author-text">{{data.author}}</text>
+      </view>
+    </block>
+
+  </block>
+
+</view>

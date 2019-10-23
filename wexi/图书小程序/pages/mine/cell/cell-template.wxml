@@ -1,0 +1,6 @@
+<template name="mine">
+<view class="cell-container">
+<text class="cell-name">{{name}}</text>
+<image class="cell-img" src="/images/more.png"></image>
+</view>
+</template>

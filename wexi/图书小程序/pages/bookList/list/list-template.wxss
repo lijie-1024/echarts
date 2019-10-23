@@ -1,0 +1,54 @@
+.list-container {
+  width: 100%;
+  height: 200rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rpx 15rpx;
+}
+
+.list-title {
+  flex: 1;
+  font-size: 30rpx;
+  color: #fb7c58;
+}
+
+.list-desc {
+  flex: 2;
+  font-size: 25rpx;
+  color: #444;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 5rpx 0rpx;
+}
+
+.author-time {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+align-items: center;
+}
+
+.list-author {
+  font-size: 24rpx;
+  color: #666;
+  margin-right: 20rpx;
+}
+
+.list-createtime {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.list-img {
+  width: 25%;
+  height: 95%;
+  margin-top: 5rpx;
+}

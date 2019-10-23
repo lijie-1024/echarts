@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/bookMall/bookMall",
+    "pages/bookList/bookList",
+    "pages/mine/mine",
+    "pages/mine/login/login",
+    "pages/bookDetail/bookDetail",
+    "pages/hotPush/hotPush",
+    "pages/allBook/allBook"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FB7C58",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tab/tab_book_store_nor.png",
+        "selectedIconPath": "/images/tab/tab_book_store_pre.png"
+      },
+      {
+        "pagePath": "pages/bookMall/bookMall",
+        "text": "书城",
+        "iconPath": "/images/tab/tab_book_shelf_nor.png",
+        "selectedIconPath": "/images/tab/tab_book_shelf_pre.png"
+      },
+      {
+        "pagePath": "pages/bookList/bookList",
+        "text": "书单",
+        "iconPath": "/images/tab/tab_book_comment_nor.png",
+        "selectedIconPath": "/images/tab/tab_book_comment_pre.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/tab/tab_book_mine_nor.png",
+        "selectedIconPath": "/images/tab/tab_book_mine_pre.png"
+      }
+    ],
+    "selectedColor": "#FB7C58",
+    "borderStyle": "white"
+  }
+}

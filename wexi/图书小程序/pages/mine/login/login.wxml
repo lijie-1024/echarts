@@ -1,0 +1,14 @@
+<!--login.wxml-->
+<view class="login-container">
+  <view class="main-container">
+    <view class="account-password-container">
+      <image src="/images/account.png"></image>
+      <input placeholder="请输入注册邮箱" bindinput="accountInput" />
+    </view>
+    <view class="account-password-container">
+      <image src="/images/password.png"></image>
+      <input placeholder="请输入密码" password='{{true}}' bindinput="passwordInput" />
+    </view>
+  </view>
+  <button class="login-button" catchtap="login">登录</button>
+</view>
