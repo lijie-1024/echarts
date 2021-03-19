@@ -1,0 +1,13 @@
+<template name="list">
+    <view class="list-container">
+      <view class="content">
+            <text class="list-title">{{title}}</text>
+            <text class="list-desc">{{content}}</text>
+                <view class="author-time">
+                    <text class="list-author">{{authorName}}</text>
+                    <text class="list-createtime">{{dateText}}</text>
+                </view>   
+      </view>
+       <image class="list-img" src="{{imgUrl}}" mode="aspectFit"></image>
+    </view>
+</template>

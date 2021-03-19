@@ -1,0 +1,48 @@
+/* hotPush.wxss */
+
+.hotpush-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  background-color: #eee;
+  align-items: center;
+}
+
+.header-img {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.header-text {
+  font-size: 36rpx;
+  color: #444;
+  margin-left: 10rpx;
+}
+
+.hot-container {
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  justify-content: space-between;
+}
+
+.name-text {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #666;
+}
+
+.author-text {
+  font-size: 24rpx;
+  color: lightgray;
+  margin-right: 20rpx;
+}

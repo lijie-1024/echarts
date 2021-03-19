@@ -1,0 +1,13 @@
+<!--allBook.wxml-->
+<view class="allbook-container">
+  <block wx:for="{{allBooks}}">
+    <view class="main-container">
+      <image class="left-image" mode="aspectFill" src="{{item.imgUrl}}"></image>
+      <view class="right-container" catchtap="toDetail" data-book="{{item}}">
+        <text class="name-label">{{item.name}}</text>
+        <text class="author-label">{{item.author}}</text>
+        <text class="score-label">豆瓣得分:{{item.doubanScore}}</text>
+      </view>
+    </view>
+  </block>
+</view>

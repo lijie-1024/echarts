@@ -1,0 +1,155 @@
+/* bookDetail.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.detail-container {
+  height: 100%;
+  width: 100%;
+  padding: 0rpx;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.book-img {
+  flex: 1;
+  padding: 20rpx;
+  max-height: 200rpx;
+}
+
+.header-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  justify-content: space-between;
+}
+
+.name-text {
+  font-size: 34rpx;
+  color: #444;
+}
+
+.author-text {
+  font-size: 28rpx;
+  color: skyblue;
+  margin-top: 25rpx;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: row;
+  height: 44rpx;
+  width: 100%;
+  margin-top: 20rpx;
+  align-items: center;
+}
+
+.stars {
+}
+
+.star-img {
+  height: 44rpx;
+  width: 44rpx;
+  margin-right: 5rpx;
+}
+
+.score-text {
+  font-size: 28rpx;
+  color: #444;
+  margin-left: 20rpx;
+}
+
+.tags-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.tags-title {
+  font-size: 30rpx;
+  color: #444;
+  margin: 20rpx;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 10rpx;
+}
+
+.tag-text {
+  border: 1rpx solid #fb7c58;
+  color: #fb7c58;
+  font-size: 26rpx;
+  margin: 10rpx;
+  border-radius: 50rpx;
+  padding: 5rpx 20rpx;
+}
+
+.content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.content-title{
+  font-size: 30rpx;
+  color: #444;
+  margin: 20rpx;
+}
+.content-detail{
+  font-size: 28rpx;
+  color: darkgray;
+  margin: 0rpx 20rpx;
+  line-height: 50rpx;
+  max-height: 400rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bottom {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.collect-btn {
+  height: 100rpx;
+  width: 30%;
+  background-color: lightgray;
+  font-size: 30rpx;
+  color: #444;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.push-btn {
+  height: 100rpx;
+  width: 70%;
+  background-color: #fb7c58;
+  font-size: 30rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+}

@@ -1,0 +1,16 @@
+<!--mine.wxml-->
+<import src="cell/cell-template.wxml" />
+
+<view class="mine-container">
+
+  <view class="info-container" catchtap="login">
+    <image class="info-img" src="/images/icon.png"></image>
+    <text class="info-text">点击登录</text>
+  </view>
+
+  <view class="section-container" wx:for="{{datas}}" wx:for-item="data">
+    <view class="main-container" wx:for="{{data}}">
+      <template is="mine" data="{{...item}}"></template>
+    </view>
+  </view>
+</view>

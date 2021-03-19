@@ -1,0 +1,20 @@
+.book-container {
+  display: flex;
+  flex-direction: column;
+margin-bottom: 20rpx;
+}
+
+.book-image {
+  height: 300rpx;
+  width: 200rpx;
+}
+
+.book-name {
+  color: #666;
+  font-size: 26rpx;
+  max-width: 180rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+vertical-align: middle;
+}

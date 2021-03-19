@@ -1,0 +1,16 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-image {
+  height: 64rpx;
+  width: 64rpx;
+  margin-top: 20rpx;
+}
+
+.menu-title {
+  font-size: 24rpx;
+  color: #fb7c58;
+  margin: 10rpx auto;
+}

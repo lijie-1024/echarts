@@ -1,0 +1,7 @@
+<template name="book">
+  <view class="book-container">
+    <image class="book-image" src="{{imgUrl}}"></image>
+     <text class="book-name">{{name}}</text> 
+    <!-- <text class="book-name">"我是测试"</text> -->
+  </view>
+</template>

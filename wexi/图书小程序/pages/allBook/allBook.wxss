@@ -1,0 +1,48 @@
+/* allBook.wxss */
+
+.allbook-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx;
+  height: 200rpx;
+  background-color: #fff;
+}
+
+.left-image {
+  flex: 1;
+  width: 100%;
+  height: 160rpx;
+  margin: 20rpx;
+}
+
+.right-container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+}
+
+.name-label {
+  flex: 3;
+  font-size: 30rpx;
+  color: #fb7c58;
+}
+
+.author-label {
+  flex: 2;
+  font-size: 26rpx;
+  color: #444;
+}
+
+.score-label {
+  flex: 1;
+  font-size: 26rpx;
+  color: lightgray;
+  vertical-align: middle;
+}

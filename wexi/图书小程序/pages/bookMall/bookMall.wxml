@@ -1,0 +1,18 @@
+<!--bookMall.wxml-->
+<import src="mall/mall-template.wxml" />
+
+<view class="container">
+  <view class="header-container" catchtap="toBookList" data-categoryId="-1" data-categoryName="全部">
+      <image class="header-img" src="/images/store/allBook_316x95_@2x.png" ></image> 
+    <text class="header-title">全部图书</text> 
+  </view>
+
+  <view class="main-container">
+    <block wx:for="{{categories}}">
+      <view catchtap="toBookList" data-categoryId="{{index+1}}" data-categoryName="{{item.name}}">
+            <template is="mall" data="{{...item}}"></template>
+      </view>
+    </block>
+  </view>
+
+</view>
